@@ -1,13 +1,16 @@
 /*blue: 4AC9F4
 purple: CDC1F9*/
 
+html {
+height: 100%;
+}
 body {
     color:white;
     /*background-color: #333333;*/
     padding-bottom: 100px;
     font-family: 'Encode Sans', sans-serif;
     background: url('./phonePicGrad.jpeg') no-repeat center center;
-    background-size:cover;
+    background-size:cover!important;
     /*opacity: 0.5;*/
     /*background-image: linear-gradient(to bottom right,#002f4b,#dc4225);*/
 }
@@ -50,7 +53,6 @@ h4 {
 }
 
 .content {
-  padding: 50px;
   text-align: center;
   /*margin-left: 150px;
   margin-right: 150px;*/
